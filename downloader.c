@@ -18,6 +18,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    // Construct the full download path
     char download_path[256];
     snprintf(download_path, sizeof(download_path), "%s/", argv[1]);
 
